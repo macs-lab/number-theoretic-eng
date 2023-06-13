@@ -25,10 +25,12 @@ show_pages(
 )
 
 
-st.title('Welcome to our Capstone Project')
+st.title('Welcome to the Number-theoretic Control and Engineering Demonstration Wesbite')
 st.image('Images/Capstone_Poster_JPEG.jpg')
+st.write('We demonstrate a library of intriguing patterns in nature and engineering. The patterns are based on various number theory concepts and can be customized with different parameters to create unique designs.')
+st.write('The web-based application can additionally be interfaced with a mobile robot to draw the patterns physically.')
 st.header('Team')
-st.write('Boris Popov | Garrett Porter | Alejandro Martin-Villa')
+st.write('Boris Popov | Garrett Porter | Alejandro Martin-Villa | Xu Chen (advisor)')
 st.write('---')
 st.subheader("_Note: printing only works if app is run locally_")
 st.write('''In order to be able to print:
