@@ -31,10 +31,12 @@ st.write('We demonstrate a library of intriguing patterns in nature and engineer
 st.write('The web-based application can additionally be interfaced with a mobile robot to draw the patterns physically.')
 st.header('Team')
 st.write('Boris Popov | Garrett Porter | Alejandro Martin-Villa | Xu Chen (advisor)')
+st.header('Acknowledgement')
+st.write('This project is supported in part by NSF Award No. 2141293 and Award No. 1953155.')
 st.write('---')
 st.subheader("_Note: printing only works if app is run locally_")
 st.write('''In order to be able to print:
-1) Clone the [github repository](https://github.com/GarPorter/Capstone) to your local machine
+1) Clone the [github repository](https://github.com/macs-lab/number-theoretic-eng) to your local machine
 2) Install the required Python packages by running `pip install -r requirements.txt`.
 3) Run the app using the command `streamlit run Test.py` or `python -m streamlit run Test.py`.
 4) Connect your Raspberry Pi to your computer via Bluetooth.
